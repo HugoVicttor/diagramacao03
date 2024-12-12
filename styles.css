@@ -1,8 +1,6 @@
 @import url(/reset.css);
 
-* {
-    outline: solid red 1px;
-}
+
 
 .home {
     display: flex;
@@ -23,6 +21,7 @@
     background-size: cover;
     align-items: center;
     justify-content: space-evenly;
+    flex-basis: 300px;
 }
 
 .bloco__2 {
@@ -71,4 +70,32 @@
     flex: 2 1 auto;
     margin: 12px;
     padding: 12px;
+}
+
+.tp1:hover {
+    outline: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    outline-offset: 10px;
+}
+
+.tp2:hover {
+    outline: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    outline-offset: 10px;
+}
+
+.tp3:hover {
+    outline: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    outline-offset: 10px;
+}
+
+.tp4:hover {
+    outline: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    outline-offset: 10px;
 }
